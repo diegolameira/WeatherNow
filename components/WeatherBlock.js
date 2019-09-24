@@ -29,4 +29,7 @@ export default ({ city, temp, pressure, humidity, lastUpdate }) => (
   </WeatherBlockStyled>
 );
 
-const WeatherBlockStyled = styled.div``;
+const WeatherBlockStyled = styled.div`
+  width: 33.3333%;
+  background: ${({ theme }) => theme.temperature.cold};
+`;
