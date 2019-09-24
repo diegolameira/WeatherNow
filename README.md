@@ -1,2 +1,0 @@
-# WeatherNow
-Created with CodeSandbox
