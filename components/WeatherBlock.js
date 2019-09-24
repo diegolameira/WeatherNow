@@ -3,24 +3,24 @@ import styled from "styled-components";
 
 export default ({ city, temp, pressure, humidity, lastUpdate }) => (
   <WeatherBlockStyled>
-    <h2 className="weatherblock-title">{city}</h2>
-    <h3 className="weatheblock-temp">{temp}</h3>
-    <div className="weatherblock-infos">
+    <h2 className="title">{city}</h2>
+    <h3 className="temp">{temp}</h3>
+    <div className="infos">
       <div>
-        <span className="weatherblock-info">
+        <span className="info">
           HUMIDITY
           <strong>
             {humidity}
-            <span className="weatherblock-info-unity">%</span>
+            <span className="info-unity">%</span>
           </strong>
         </span>
       </div>
       <div>
-        <span className="weatherblock-info">
+        <span className="info">
           PRESSURE
           <strong>
             {pressure}
-            <span className="weatherblock-info-unity">hPa</span>
+            <span className="info-unity">hPa</span>
           </strong>
         </span>
       </div>
